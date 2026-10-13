@@ -1,0 +1,24 @@
+package acts3;
+
+import java.util.Scanner;
+
+public class SumaYResta {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Ingrese el primer número:");
+        double num1 = sc.nextDouble();
+
+        System.out.println("Ingrese el segundo número:");
+        double num2 = sc.nextDouble();
+
+        double suma = num1 + num2;
+        double resta = num1 - num2;
+
+        System.out.println("La suma es: " + suma);
+        System.out.println("La resta es: " + resta);
+
+        sc.close();
+    }
+}
